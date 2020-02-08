@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Lord of the Rings quiz question slide">
+    <title>Quiz App Question Slide</title>
+    <link rel="shortcut icon" href="#">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <h1>Question 1 of 10</h1>    
+          <div class="question-and-score"></div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" aria-live="polite">
+      <fieldset>
+        <div class="row">
+          <div class="col-12">
+            <p>Can you identify this character?</p>
+            <p><img src="img/gollum.jpg" alt="A brown-grey, hairless head with large eyes and ears"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <form class="quizquestion">
+              <input type="radio" name="character" value="Frodo Baggins"> Frodo Baggins<br>
+              <input type="radio" name="character" value="Gollum"> Gollum<br>
+              <input type="radio" name="character" value="The Witch-king"> The Witch-king<br>
+              <input type="radio" name="character" value="Shagrat"> Shagrat<br>
+            </form>
+          </div>
+        </div>
+      </fieldset>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="store.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
