@@ -91,7 +91,9 @@ function renderQuestion() {
 
 function handleQuizStart() {
     $('#start').on('click', function(event) {
+/* I had a header picture once, but couldn't make it look good...
         $('#header-picture').hide();
+*/        
         renderQuestion();
     });
 }

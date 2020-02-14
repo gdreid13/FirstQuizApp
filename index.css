@@ -4,18 +4,38 @@
 
 body {
   font-family: "Roboto", sans-serif; 
+  background-image: url("img/rivendell.JPG");
+  background-color: forestgreen;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
-  
+
+header {
+  margin-top: 25px;
+}
+
 header h1 {
   text-align: center;
 }
 
-.header-picture {
+/* had a header picture once */
+/* .header-picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;  
+} */
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 .intro {
@@ -27,15 +47,25 @@ header h1 {
 
 fieldset {
   display: block;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 0;
   margin-bottom: auto;
   padding-top: 0.35em;
-  padding-bottom: 0.625em;
+  padding-bottom: 1.5em;
   padding-left: 0.75em;
   padding-right: 0.75em;
-  border: 2px groove (internal value);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: white;
+}
+
+img {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
 
 .question-number {
@@ -49,3 +79,89 @@ fieldset {
 ul.scoring {
   list-style-type: none;
 }
+
+header .question-number {
+  font-size: 20px;
+  font-weight: 600px;
+  color:white;
+  background: none;
+}
+
+header .quiz-score {
+  font-size: 20px;
+  font-weight: 600px;
+  color:white;
+  background: none;
+}
+
+.question-form .question {
+  text-align: center;
+}
+
+.options ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+}
+
+button:hover:enabled, button:focus:enabled {
+  background-color: lightgray;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button:disabled {
+  opacity:0.5;
+}
+
+.js-options {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.right-or-wrong {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.results legend {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.results button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+  padding: 10px 20px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
