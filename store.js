@@ -3,7 +3,7 @@
 const STORE = {
     questions: [
         {
-            image: 'https://github.com/gdreid13/FirstQuizApp/tree/master/img/img1.jpg',
+            image: 'img/img1.JPG',
             alt: "A rugged man with a sparse beard and long brown hair.",
             title: "Wanders, but not lost.  Heir to old thrones.",
             options: [
@@ -15,7 +15,7 @@ const STORE = {
             answer: "Aragorn"
         },
         {
-            image: 'img/img2.jpg',
+            image: 'img/img2.JPG',
             alt: "An old man in grey with a long grey beard and a pointy hat.",
             title:  "Booster of shorties.  Good with fireworks.",
             options: [
@@ -27,7 +27,7 @@ const STORE = {
             answer: "Gandalf"
         },
         {
-            image: 'img/img3.jpg',
+            image: 'img/img3.JPG',
             alt: "Blonde male with a quiver of arrows on his back.",
             title: "Excellent shot.  Tireless.  Light on his feet.",
             options: [
@@ -39,7 +39,7 @@ const STORE = {
             answer: "Legolas"
         },
         {
-            image: 'img/img4.jpg',
+            image: 'img/img4.JPG',
             alt: "Short male with a long brown beard and an axe in each hand.",
             title:  "Likes: Smoking, Elvish women.  Dislikes: Orcs, being tossed.",
             options: [
@@ -51,7 +51,7 @@ const STORE = {
             answer: "Gimli"
         },
         {
-            image: 'img/img5.jpg',
+            image: 'img/img5.JPG',
             alt: "Man with light brown hair and a light beard.",
             title: "Proud warrior.  Patriot.  Vulnerable to arrows.",
             options: [
@@ -63,7 +63,7 @@ const STORE = {
             answer: "Boromir"
         },
         {
-            image: 'img/img6.jpg',
+            image: 'img/img6.JPG',
             alt: "Figure dressed in black with a metal helmet covering his entire head.",
             title: "Who forges rings to further their plan for world domination?  This guy.",
             options: [
@@ -75,7 +75,7 @@ const STORE = {
             answer: "Sauron"
         },
         {
-            image: 'img/img7.jpg',
+            image: 'img/img7.JPG',
             alt: "Male with light brown hair and mustache.",
             title:  "Runs an Inn.  Head like a lumber-room: thing wanted, always buried.",
             options: [
@@ -87,7 +87,7 @@ const STORE = {
             answer: "Barliman Butterbur"
         },
         {
-            image: 'img/img8.jpg',
+            image: 'img/img8.JPG',
             alt: "Old man with long white hair and a long white beard.  Elegant staff in one hand.",
             title:  "Bit of a shut-in.  Fancies crystal balls and rings.  Not a fan of trees.",
             options: [
@@ -99,7 +99,7 @@ const STORE = {
             answer: "Saruman"
         },
         {
-            image: 'img/img9.jpg',
+            image: 'img/img9.JPG',
             alt: "Pale male with long brown hair.",
             title:  "Blink and you'll miss him.  Officially cast as Elf Escort, given a name by fans.",
             options: [
@@ -111,7 +111,7 @@ const STORE = {
             answer: "Figwit"
         },
         {
-            image: 'img/img10.jpg',
+            image: 'img/img10.JPG',
             alt: "Short woman with an odd hat and mean look on her face.",
             title: "Another character seen only briefly.  Bilbo's nasty cousin.  Wants his hobbit-hole.",
             options: [
