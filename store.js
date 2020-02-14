@@ -3,7 +3,7 @@
 const STORE = {
     questions: [
         {
-            image: 'img/img1.jpg',
+            image: 'https://github.com/gdreid13/FirstQuizApp/blob/master/img/img1.JPG',
             alt: "A rugged man with a sparse beard and long brown hair.",
             title: "Wanders, but not lost.  Heir to old thrones.",
             options: [
