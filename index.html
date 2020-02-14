@@ -2,17 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Lord of the Rings quiz">
     <title>Quiz App</title>
     <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
       <div class="row">
         <div class="col">
-          <h1>"Lord of the Rings" Quiz</h1>
+          <h1>"Lord of the Rings" Quiz </h1>
+          <img class="header-picture" id="header-picture" src="img/gollum.jpg" alt="A brown-grey, hairless head with large eyes and ears">
           <div class="question-number"></div>
           <div class="quiz-score"></div>
         </div>
@@ -23,12 +25,12 @@
       <fieldset>
         <div class="row">
           <div class="col">
-            <p>Test your knowledge of characters from Peter Jackson's "Lord of the Rings" movies!</p>
+            <p class="intro">Test your knowledge of characters from Peter Jackson's "Lord of the Rings" movies!</p>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <button type="button" id="start">Start Quiz</button>
+            <button class="intro" type="button" id="start">Start Quiz</button>
           </div>
         </div>
       </fieldset>

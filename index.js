@@ -17,22 +17,20 @@ function displayResult() {
             </fieldset>
         </form>
         </div>`);
-        STORE.currentQuestion = 0;
-        STORE.score = 0;
-      $("main").html(resultHTML);   
+    STORE.currentQuestion = 0;
+    STORE.score = 0;
+    $("main").html(resultHTML);
 }
 
-
-
 function questionNumber() {
-    const html = $(`<ul>
+    const html = $(`<ul class="scoring">
     <li id="js-answered">Question Number: ${STORE.currentQuestion + 1}/${STORE.questions.length}</li>
     </ul>`);
     $(".question-number").html(html);
 }
 
 function quizScore() {
-    const html = $(`<ul>
+    const html = $(`<ul class="scoring">
     <li id="js-score">Score: ${STORE.score}/${STORE.questions.length}</li>
     </ul>`);
     $(".quiz-score").html(html);
@@ -40,7 +38,7 @@ function quizScore() {
 
 function questionOptions() {
     let question = STORE.questions[STORE.currentQuestion];
-    for(let i = 0; i < question.options.length; i++)
+    for (let i = 0; i < question.options.length; i++)
         {
         $('.js-options').append(`
             <input type="radio" name="options" id="option${i+1}" value="${question.options[i]}" tabindex="${i+1}"> 
@@ -74,8 +72,7 @@ function renderQuestion() {
                             <div class="js-options"> </div>
                         </div>
                     </div>
-
-                    <div class="right-or-wrong">
+                        <div class="right-or-wrong">
                     </div>    
 
                     <div class="row">
@@ -94,6 +91,7 @@ function renderQuestion() {
 
 function handleQuizStart() {
     $('#start').on('click', function(event) {
+        $('#header-picture').hide();
         renderQuestion();
     });
 }

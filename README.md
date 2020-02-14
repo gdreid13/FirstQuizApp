@@ -5,8 +5,6 @@ Questions all in the format of:
 Who is <character>?  <image>
 Answers:  multiple-choice, A through D
 
-HTML in separate slides that will be concatenated when JS is added
-
 User stories:
 Quiz app screen should be rendered to the page
 User should be able to click a button and start the quiz

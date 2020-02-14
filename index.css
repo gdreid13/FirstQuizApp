@@ -1,5 +1,51 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Roboto", sans-serif; 
+}
   
+header h1 {
+  text-align: center;
+}
+
+.header-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+}
+
+.intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+fieldset {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: auto;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+}
+
+.question-number {
+  text-align: center;
+}
+
+.quiz-score {
+  text-align: center;
+}
+
+ul.scoring {
+  list-style-type: none;
+}
